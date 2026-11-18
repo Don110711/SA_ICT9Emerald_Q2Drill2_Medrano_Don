@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.35), transparent 25%),
+    radial-gradient(circle at 80% 75%, rgba(255, 255, 255, 0.22), transparent 30%),
+    linear-gradient(135deg, #0c3558 0%, #1d063d 50%, #3c0707 100%);
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+.container-fluid  {
+  background-color: #0b2d4d;
+  color: white;
+}
